@@ -7,7 +7,7 @@
 
 module.exports = {
 	index: function (request, response) {
-		return response.view('homepage', {
+		return response.view('homepage/homepage', {
 			currentDate: (new Date()).toString()
 		});
 	}
