@@ -1,0 +1,22 @@
+<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">Clients</div>
+
+  <!-- Table -->
+  <table class="table">
+    <thead>
+    	<tr>
+    		<th>First name</th>
+    		<th>Last name</th>
+    	</tr>
+    </thead>
+    <tbody>
+    		<% _.each(allPersons, function(person) { %>
+			<tr>
+				<th><%= person.firstName %></th>
+				<th><%= person.lastName %></th>
+			</tr>
+			<% }) %>
+    </tbody>
+  </table>
+</div>

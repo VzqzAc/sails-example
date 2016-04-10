@@ -20,6 +20,13 @@
 
 // Ensure we're in the project directory, so relative paths work as expected
 // no matter where we actually lift from.
+
+
+//This is to start the mongodb before the sails app
+    var exec = require('child_process').exec;
+    var runMongo = 'mongod --dbpath="D:\\Coding\\Mongodb\\data"';
+    exec(runMongo);
+
 process.chdir(__dirname);
 
 // Ensure a "sails" can be located:

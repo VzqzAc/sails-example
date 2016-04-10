@@ -31,7 +31,7 @@ module.exports.routes = {
   * `assets` directory)                                                      *
   *                                                                          *
   ***************************************************************************/
-  '/': 'HomepagesController.index'
+  '/': 'HomepagesController.index',
 
   /***************************************************************************
   *                                                                          *
@@ -42,5 +42,7 @@ module.exports.routes = {
   * for configuration options and examples.                                  *
   *                                                                          *
   ***************************************************************************/
+
+  '/person': 'PersonController.index'
 
 };

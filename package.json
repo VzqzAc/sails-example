@@ -22,6 +22,7 @@
     "include-all": "~0.1.6",
     "kerberos": "0.0.19",
     "rc": "1.0.1",
+    "react": "^0.14.8",
     "sails": "~0.12.1",
     "sails-disk": "~0.10.9",
     "sails-mongo": "^0.12.0"
@@ -33,8 +34,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/anonymous node/sails user/sails-introduction.git"
+    "url": "https://github.com/VzqzAc/sails-example"
   },
-  "author": "anonymous node/sails user",
+  "author": "Omar Vazquez",
   "license": ""
 }
